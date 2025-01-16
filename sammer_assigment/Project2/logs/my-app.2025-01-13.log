@@ -1,0 +1,206 @@
+2025-01-13 20:13:53.331 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 63859 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:13:53.332 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:13:53.886 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 20:13:53.893 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:13:53.894 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:13:53.894 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:13:53.926 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:13:53.926 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 565 ms
+2025-01-13 20:13:54.205 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:13:54.225 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:13:54.242 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 20:13:54.252 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.172 seconds (process running for 1.364)
+2025-01-13 20:15:04.940 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 20:15:04.941 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 20:15:04.943 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-13 20:15:04.970 [http-nio-8080-exec-1] 678526f045c9ecb5e707bb04c52699e7 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:15:54.603 [http-nio-8080-exec-3] 67852722255761b16d85495e18a6a8d8 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:16:06.179 [http-nio-8080-exec-4] 6785272e91e78aafae3d62de4127fc4a INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:16:21.874 [http-nio-8080-exec-5] 6785273d5f4fcef475095c622b20fcf7 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:16:30.466 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 20:16:32.483 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 20:25:57.413 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 64704 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:25:57.414 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:25:57.994 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 20:25:58.002 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:25:58.003 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:25:58.004 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:25:58.038 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:25:58.039 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 595 ms
+2025-01-13 20:25:58.322 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:25:58.345 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:25:58.360 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 20:25:58.374 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.232 seconds (process running for 1.45)
+2025-01-13 20:26:02.385 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 20:26:02.385 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 20:26:02.386 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 20:26:02.410 [http-nio-8080-exec-2] 678529821e01edb782681182ee42a4a1 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:28:46.651 [http-nio-8080-exec-5] 67852a26ee4ba8c8427d9582b209f415 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:29:51.744 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 20:29:52.763 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 20:30:05.113 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 64975 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:30:05.114 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:30:05.805 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 20:30:05.813 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:30:05.814 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:30:05.814 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:30:05.850 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:30:05.850 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 707 ms
+2025-01-13 20:30:06.140 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:30:06.159 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:30:06.173 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 20:30:06.187 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.333 seconds (process running for 1.557)
+2025-01-13 20:30:16.130 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 20:30:16.130 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 20:30:16.131 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 20:30:16.159 [http-nio-8080-exec-1] 67852a802e0b9de71b0c1c031d17ea5f INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:31:49.963 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 20:31:49.981 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 20:33:36.032 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 65181 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:33:36.038 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:33:36.609 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 20:33:36.624 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:33:36.625 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:33:36.625 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:33:36.654 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:33:36.654 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms
+2025-01-13 20:33:36.936 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:33:36.954 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:33:36.968 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 20:33:36.983 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.278 seconds (process running for 1.481)
+2025-01-13 20:33:41.822 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 20:33:41.822 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 20:33:41.823 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 20:33:44.561 [http-nio-8080-exec-3] 67852b50816634830412d2846345a520 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:33:44.562 [http-nio-8080-exec-3] 67852b50816634830412d2846345a520 INFO  c.e.Project2.controller.Controller - traceId=67852b50816634830412d2846345a520 spanId=0412d2846345a520, parentSpanId=null
+2025-01-13 20:34:56.196 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 20:34:57.214 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 20:34:58.331 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 65267 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:34:58.331 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:34:58.890 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 20:34:58.896 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:34:58.897 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:34:58.897 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:34:58.930 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:34:58.930 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+2025-01-13 20:34:59.243 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:34:59.263 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 20:34:59.278 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 20:34:59.292 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.219 seconds (process running for 1.419)
+2025-01-13 20:35:05.547 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 20:35:05.547 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 20:35:05.548 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 20:35:05.573 [http-nio-8080-exec-1] 67852ba1c255076a044c7d52d107a980 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 20:35:05.574 [http-nio-8080-exec-1] 67852ba1c255076a044c7d52d107a980 INFO  c.e.Project2.controller.Controller - traceId=67852ba1c255076a044c7d52d107a980 spanId=044c7d52d107a980, parentSpanId=null
+2025-01-13 20:35:17.270 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 20:35:17.957 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 20:36:35.372 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 65371 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:36:35.373 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:36:36.043 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8089 (http)
+2025-01-13 20:36:36.054 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2025-01-13 20:36:36.055 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:36:36.055 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:36:36.085 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:36:36.086 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 674 ms
+2025-01-13 20:36:36.386 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:36:36.407 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2025-01-13 20:36:36.428 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2025-01-13 20:36:36.447 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.368 seconds (process running for 1.577)
+2025-01-13 20:37:34.501 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 20:37:34.516 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 20:52:53.243 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 66811 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 20:52:53.244 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 20:52:53.847 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8089 (http)
+2025-01-13 20:52:53.858 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2025-01-13 20:52:53.859 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 20:52:53.859 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 20:52:53.891 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 20:52:53.892 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
+2025-01-13 20:52:54.215 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 20:52:54.234 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2025-01-13 20:52:54.249 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2025-01-13 20:52:54.263 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.287 seconds (process running for 1.483)
+2025-01-13 21:02:58.026 [http-nio-8089-exec-1]  INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010xb30x010x000x010xaf0x030x03I?0x110xdb0x15qc0x8bK0x1b0xd60xc80xe9-0x13g0xd00xa6Z3\0xe80xfe0x970xd20xeb0xe60xb50x1aF"0xe0 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 21:04:53.629 [http-nio-8089-exec-3]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:04:53.630 [http-nio-8089-exec-3]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:04:53.633 [http-nio-8089-exec-3]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-01-13 21:04:53.661 [http-nio-8089-exec-3] 6785329dd9b917eaa315e6b186f17100 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:04:53.685 [http-nio-8089-exec-4] 6785329de955a2c026c343d7ffeb384b WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-01-13 21:06:22.658 [http-nio-8089-exec-6] 678532f64ae0153f50c8a365c53e1e70 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:06:22.678 [http-nio-8089-exec-7] 678532f69e6c94f3a6ee12d433ab086c WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-01-13 21:07:34.228 [http-nio-8089-exec-9] 6785333e5dfb822473fa740d81545f54 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:08:19.426 [http-nio-8089-exec-1] 6785336b83afddaf734875bef042a697 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:08:36.744 [http-nio-8089-exec-3] 6785337c80870eca6f3bfdb9f9920634 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:15:24.974 [http-nio-8089-exec-5] 67853514dc41854db9b14e0effbac2a7 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:16:09.190 [http-nio-8089-exec-7] 678535415b56cbd3089f754c5577a00b INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:16:39.252 [http-nio-8089-exec-9] 6785355fd16c01c5db821c8b81087c20 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:17:38.336 [http-nio-8089-exec-1] 6785359adb61d5d37ceccb83ba163b96 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:19:18.651 [http-nio-8089-exec-3] 678535fee9d8f35668b8b2fa45afd2b9 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:21:24.927 [http-nio-8089-exec-5] 6785367cf4610da9790baf6e1455fb05 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:21:58.237 [http-nio-8089-exec-7] 6785369e001c5ef0dc480340aedaafa1 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:26:57.879 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:26:57.906 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:28:17.430 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 69325 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 21:28:17.433 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:28:17.982 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8089 (http)
+2025-01-13 21:28:17.989 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2025-01-13 21:28:17.990 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:28:17.990 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:28:18.023 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:28:18.024 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 560 ms
+2025-01-13 21:28:18.406 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:28:18.428 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2025-01-13 21:28:18.443 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2025-01-13 21:28:18.457 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.394 seconds (process running for 1.597)
+2025-01-13 21:28:33.338 [http-nio-8089-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:28:33.339 [http-nio-8089-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:28:33.347 [http-nio-8089-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2025-01-13 21:28:33.375 [http-nio-8089-exec-1] 678538294d6481b5bc6d1ecb3c65d4e0 INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:29:09.005 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:29:09.019 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:29:13.100 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 69386 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 21:29:13.101 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:29:13.667 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8089 (http)
+2025-01-13 21:29:13.676 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2025-01-13 21:29:13.678 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:29:13.684 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:29:13.730 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:29:13.731 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 601 ms
+2025-01-13 21:29:14.154 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:29:14.195 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2025-01-13 21:29:14.211 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2025-01-13 21:29:14.225 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.401 seconds (process running for 1.583)
+2025-01-13 21:29:15.825 [http-nio-8089-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:29:15.826 [http-nio-8089-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:29:15.826 [http-nio-8089-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-13 21:29:15.852 [http-nio-8089-exec-1]  INFO  c.e.Project2.controller.Controller - Request receive form service 1
+2025-01-13 21:29:38.935 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:29:39.953 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:34:07.583 [main]  INFO  c.e.Project2.Project2Application - Starting Project2Application using Java 23.0.1 with PID 69680 (/Users/rajatsingh/Downloads/Project2/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project2)
+2025-01-13 21:34:07.585 [main]  INFO  c.e.Project2.Project2Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:34:08.134 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8089 (http)
+2025-01-13 21:34:08.140 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2025-01-13 21:34:08.141 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:34:08.142 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:34:08.173 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:34:08.174 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 558 ms
+2025-01-13 21:34:08.467 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:34:08.487 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2025-01-13 21:34:08.501 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2025-01-13 21:34:08.514 [main]  INFO  c.e.Project2.Project2Application - Started Project2Application in 1.204 seconds (process running for 1.393)
+2025-01-13 21:34:11.124 [http-nio-8089-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:34:11.124 [http-nio-8089-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:34:11.125 [http-nio-8089-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:34:11.153 [http-nio-8089-exec-1] 6785397b66fd917063677e17c4449eb1 INFO  c.e.Project2.controller.Controller - Request receive form service 1

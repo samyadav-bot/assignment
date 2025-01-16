@@ -1,0 +1,946 @@
+2025-01-13 21:01:00.745 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67392 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:01:00.747 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:01:01.292 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:01:01.297 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:01:01.298 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:01:01.299 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:01:01.336 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:01:01.336 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+2025-01-13 21:01:01.642 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:01:01.660 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:01:01.670 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:01:01.684 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.192 seconds (process running for 1.43)
+2025-01-13 21:01:30.328 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:01:30.329 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:01:30.330 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:01:30.354 [http-nio-8080-exec-1] 678531d25b0ea6916e3ffc27a1c865a2 INFO  c.e.Project1.controller.Controller - Request receive for service status
+2025-01-13 21:02:01.183 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:02:02.200 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:02:45.352 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67514 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:02:45.354 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:02:45.916 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:02:45.925 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:02:45.926 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:02:45.926 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:02:45.956 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:02:45.957 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 579 ms
+2025-01-13 21:02:46.215 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:02:46.235 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:02:46.245 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:02:46.259 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.162 seconds (process running for 1.345)
+2025-01-13 21:02:49.547 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:02:49.547 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:02:49.548 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:02:49.570 [http-nio-8080-exec-2] 67853221927fd70d089e294803b58841 WARN  o.s.web.servlet.PageNotFound - Request method 'GET' is not supported
+2025-01-13 21:02:57.853 [http-nio-8080-exec-3] 67853229dd57877a59ca88e47eeb943c INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:02:57.854 [http-nio-8080-exec-3] 67853229dd57877a59ca88e47eeb943c INFO  c.example.Project1.service.Processor - service2 calling url= https://localhost:8089/null
+2025-01-13 21:02:58.051 [http-nio-8080-exec-3] 67853229dd57877a59ca88e47eeb943c ERROR c.e.P.errorhandler.RestErrorHandler - Request processing failed 
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://localhost:8089/null": Unsupported or unrecognized SSL message
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:415)
+	at com.example.Project1.service.Processor.getDataForUserFromService2(Processor.java:46)
+	at com.example.Project1.service.Processor.getUserCompleteName(Processor.java:34)
+	at com.example.Project1.controller.Controller.processRequest(Controller.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:457)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:589)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 59 common frames omitted
+2025-01-13 21:03:32.439 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:03:33.448 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:04:14.434 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67607 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:04:14.435 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:04:14.987 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:04:14.992 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:04:14.993 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:04:14.994 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:04:15.034 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:04:15.035 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms
+2025-01-13 21:04:15.355 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:04:15.377 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:04:15.389 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:04:15.403 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.198 seconds (process running for 1.418)
+2025-01-13 21:04:18.682 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:04:18.683 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:04:18.684 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:04:18.748 [http-nio-8080-exec-2] 6785327a0974bf4fb8a96bfe644d160d INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:04:18.749 [http-nio-8080-exec-2] 6785327a0974bf4fb8a96bfe644d160d INFO  c.example.Project1.service.Processor - service2 calling url= https://localhost:8089/hello
+2025-01-13 21:04:18.853 [http-nio-8080-exec-2] 6785327a0974bf4fb8a96bfe644d160d ERROR c.e.P.errorhandler.RestErrorHandler - Request processing failed 
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://localhost:8089/hello": Unsupported or unrecognized SSL message
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:415)
+	at com.example.Project1.service.Processor.getDataForUserFromService2(Processor.java:46)
+	at com.example.Project1.service.Processor.getUserCompleteName(Processor.java:34)
+	at com.example.Project1.controller.Controller.processRequest(Controller.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:457)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:589)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 59 common frames omitted
+2025-01-13 21:04:34.967 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:04:36.980 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:04:49.669 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67653 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:04:49.671 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:04:50.209 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:04:50.220 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:04:50.221 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:04:50.221 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:04:50.251 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:04:50.252 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 554 ms
+2025-01-13 21:04:50.551 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:04:50.572 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:04:50.592 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:04:50.606 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.192 seconds (process running for 1.402)
+2025-01-13 21:04:53.527 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:04:53.528 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:04:53.528 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-13 21:04:53.585 [http-nio-8080-exec-2] 6785329ddbc71cc23413f7febf489407 INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:04:53.585 [http-nio-8080-exec-2] 6785329ddbc71cc23413f7febf489407 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:04:53.673 [http-nio-8080-exec-2] 6785329ddbc71cc23413f7febf489407 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:04:53.673 [http-nio-8080-exec-2] 6785329ddbc71cc23413f7febf489407 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8089/hello
+2025-01-13 21:04:53.718 [http-nio-8080-exec-2] 6785329ddbc71cc23413f7febf489407 ERROR c.e.P.errorhandler.RestErrorHandler - Request processing failed 
+org.springframework.web.client.HttpClientErrorException$MethodNotAllowed: 405  on POST request for "http://localhost:8089/hello": "{"timestamp":"2025-01-13T15:34:53.692+00:00","status":405,"error":"Method Not Allowed","path":"/hello"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:115)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:225)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:518)
+	at com.example.Project1.service.Processor.postDataForUserFromService3(Processor.java:58)
+	at com.example.Project1.service.Processor.getUserCompleteName(Processor.java:35)
+	at com.example.Project1.controller.Controller.processRequest(Controller.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-01-13 21:05:10.651 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:05:11.275 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:06:10.793 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67740 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:06:10.795 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:06:11.368 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:06:11.374 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:06:11.375 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:06:11.375 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:06:11.408 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:06:11.409 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 587 ms
+2025-01-13 21:06:11.800 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:06:11.829 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:06:11.846 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:06:11.864 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.299 seconds (process running for 1.521)
+2025-01-13 21:06:22.562 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:06:22.562 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:06:22.563 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:06:22.631 [http-nio-8080-exec-1] 678532f6b5368c310b5fed798425c9cd INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:06:22.632 [http-nio-8080-exec-1] 678532f6b5368c310b5fed798425c9cd INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:06:22.667 [http-nio-8080-exec-1] 678532f6b5368c310b5fed798425c9cd INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:06:22.667 [http-nio-8080-exec-1] 678532f6b5368c310b5fed798425c9cd INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8089/hello
+2025-01-13 21:06:22.684 [http-nio-8080-exec-1] 678532f6b5368c310b5fed798425c9cd ERROR c.e.P.errorhandler.RestErrorHandler - Request processing failed 
+org.springframework.web.client.HttpClientErrorException$MethodNotAllowed: 405  on POST request for "http://localhost:8089/hello": "{"timestamp":"2025-01-13T15:36:22.679+00:00","status":405,"error":"Method Not Allowed","path":"/hello"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:115)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:225)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:518)
+	at com.example.Project1.service.Processor.postDataForUserFromService3(Processor.java:58)
+	at com.example.Project1.service.Processor.getUserCompleteName(Processor.java:35)
+	at com.example.Project1.controller.Controller.processRequest(Controller.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-01-13 21:06:35.135 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:06:37.151 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:06:46.373 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67776 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:06:46.374 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:06:46.920 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:06:46.927 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:06:46.928 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:06:46.928 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:06:46.967 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:06:46.968 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 571 ms
+2025-01-13 21:06:47.251 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:06:47.269 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:06:47.279 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:06:47.293 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.153 seconds (process running for 1.334)
+2025-01-13 21:06:58.110 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:06:58.122 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:07:27.765 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67823 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:07:27.767 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:07:28.314 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:07:28.320 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:07:28.321 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:07:28.321 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:07:28.357 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:07:28.358 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+2025-01-13 21:07:28.633 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:07:28.653 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:07:28.663 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:07:28.678 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.139 seconds (process running for 1.311)
+2025-01-13 21:07:34.137 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:07:34.138 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:07:34.138 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-13 21:07:34.204 [http-nio-8080-exec-1] 6785333e44d28bc64fe0c92c48bdc269 INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:07:34.205 [http-nio-8080-exec-1] 6785333e44d28bc64fe0c92c48bdc269 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:07:34.234 [http-nio-8080-exec-1] 6785333e44d28bc64fe0c92c48bdc269 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:07:34.235 [http-nio-8080-exec-1] 6785333e44d28bc64fe0c92c48bdc269 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:07:34.310 [http-nio-8080-exec-1] 6785333e44d28bc64fe0c92c48bdc269 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@d2844d0
+2025-01-13 21:07:42.288 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:07:44.305 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:08:14.839 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67873 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:08:14.840 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:08:15.437 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:08:15.442 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:08:15.443 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:08:15.444 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:08:15.481 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:08:15.481 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
+2025-01-13 21:08:15.755 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:08:15.774 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:08:15.783 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:08:15.797 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.184 seconds (process running for 1.349)
+2025-01-13 21:08:19.343 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:08:19.343 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:08:19.344 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:08:19.401 [http-nio-8080-exec-1] 6785336bcf5465d7b1567a05ee992ee7 INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:08:19.402 [http-nio-8080-exec-1] 6785336bcf5465d7b1567a05ee992ee7 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:08:19.431 [http-nio-8080-exec-1] 6785336bcf5465d7b1567a05ee992ee7 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:08:19.431 [http-nio-8080-exec-1] 6785336bcf5465d7b1567a05ee992ee7 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:08:19.469 [http-nio-8080-exec-1] 6785336bcf5465d7b1567a05ee992ee7 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@167a7d45
+2025-01-13 21:08:25.749 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:08:26.167 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:08:32.035 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 67900 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:08:32.036 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:08:32.585 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:08:32.590 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:08:32.591 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:08:32.591 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:08:32.619 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:08:32.620 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+2025-01-13 21:08:32.910 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:08:32.933 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:08:32.943 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:08:32.956 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.161 seconds (process running for 1.365)
+2025-01-13 21:08:36.666 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:08:36.666 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:08:36.668 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:08:36.724 [http-nio-8080-exec-1] 6785337c1ee6a6a427dc688716e83d65 INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:08:36.725 [http-nio-8080-exec-1] 6785337c1ee6a6a427dc688716e83d65 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:08:36.751 [http-nio-8080-exec-1] 6785337c1ee6a6a427dc688716e83d65 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:08:36.751 [http-nio-8080-exec-1] 6785337c1ee6a6a427dc688716e83d65 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:08:36.786 [http-nio-8080-exec-1] 6785337c1ee6a6a427dc688716e83d65 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@1312d75b
+2025-01-13 21:14:35.081 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:14:35.092 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:14:42.064 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68266 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:14:42.065 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:14:43.469 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:14:43.477 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:14:43.478 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:14:43.478 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:14:43.525 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:14:43.526 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1376 ms
+2025-01-13 21:14:44.489 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:14:44.538 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:14:44.556 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:14:44.572 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 2.995 seconds (process running for 3.43)
+2025-01-13 21:14:59.420 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:14:59.434 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:15:20.137 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68328 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:15:20.138 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:15:20.818 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:15:20.824 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:15:20.825 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:15:20.825 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:15:20.855 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:15:20.855 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+2025-01-13 21:15:21.296 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:15:21.321 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:15:21.331 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:15:21.340 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.434 seconds (process running for 1.637)
+2025-01-13 21:15:24.876 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:15:24.876 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:15:24.877 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:15:24.944 [http-nio-8080-exec-1] 67853514bd4cc3722d124b30791e055e INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:15:24.945 [http-nio-8080-exec-1] 67853514bd4cc3722d124b30791e055e INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:15:24.980 [http-nio-8080-exec-1] 67853514bd4cc3722d124b30791e055e INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:15:24.980 [http-nio-8080-exec-1] 67853514bd4cc3722d124b30791e055e INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:15:25.023 [http-nio-8080-exec-1] 67853514bd4cc3722d124b30791e055e INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@304db2c
+2025-01-13 21:16:03.363 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:16:03.371 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:16:05.791 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68372 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:16:05.792 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:16:06.540 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:16:06.546 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:16:06.547 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:16:06.547 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:16:06.578 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:16:06.579 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 763 ms
+2025-01-13 21:16:07.073 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:16:07.101 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:16:07.112 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:16:07.128 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.626 seconds (process running for 1.978)
+2025-01-13 21:16:09.091 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:16:09.091 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:16:09.092 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:16:09.165 [http-nio-8080-exec-2] 678535418706e1ca2485451fab5f89a2 INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:16:09.167 [http-nio-8080-exec-2] 678535418706e1ca2485451fab5f89a2 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:16:09.196 [http-nio-8080-exec-2] 678535418706e1ca2485451fab5f89a2 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:16:09.197 [http-nio-8080-exec-2] 678535418706e1ca2485451fab5f89a2 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:16:09.226 [http-nio-8080-exec-2] 678535418706e1ca2485451fab5f89a2 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@40cd3c1a
+2025-01-13 21:16:29.486 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68392 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:16:29.487 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:16:30.337 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:16:30.342 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:16:30.343 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:16:30.343 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:16:30.378 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:16:30.378 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 865 ms
+2025-01-13 21:16:30.823 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:16:30.850 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:16:30.861 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:16:30.871 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.777 seconds (process running for 1.99)
+2025-01-13 21:16:33.003 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:16:33.016 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:16:34.727 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68398 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:16:34.729 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:16:35.442 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:16:35.447 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:16:35.448 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:16:35.448 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:16:35.483 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:16:35.489 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+2025-01-13 21:16:35.951 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:16:35.981 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:16:35.994 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:16:36.009 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.57 seconds (process running for 1.797)
+2025-01-13 21:16:39.155 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:16:39.156 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:16:39.157 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:16:39.227 [http-nio-8080-exec-1] 6785355f60ac0dfa6b3a3739723e29cd INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:16:39.228 [http-nio-8080-exec-1] 6785355f60ac0dfa6b3a3739723e29cd INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:16:39.258 [http-nio-8080-exec-1] 6785355f60ac0dfa6b3a3739723e29cd INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:16:39.261 [http-nio-8080-exec-1] 6785355f60ac0dfa6b3a3739723e29cd INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:16:39.293 [http-nio-8080-exec-1] 6785355f60ac0dfa6b3a3739723e29cd INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@154b1203
+2025-01-13 21:17:31.132 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68445 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:17:31.134 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:17:31.834 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:17:31.839 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:17:31.840 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:17:31.840 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:17:31.870 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:17:31.870 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 713 ms
+2025-01-13 21:17:32.319 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:17:32.345 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:17:32.357 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:17:32.367 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.456 seconds (process running for 1.666)
+2025-01-13 21:17:38.242 [http-nio-8080-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:17:38.243 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:17:38.244 [http-nio-8080-exec-1]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:17:38.310 [http-nio-8080-exec-1] 6785359aac7bb359454d1aaf41e57443 INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:17:38.311 [http-nio-8080-exec-1] 6785359aac7bb359454d1aaf41e57443 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:17:38.343 [http-nio-8080-exec-1] 6785359aac7bb359454d1aaf41e57443 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:17:38.343 [http-nio-8080-exec-1] 6785359aac7bb359454d1aaf41e57443 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:17:38.387 [http-nio-8080-exec-1] 6785359aac7bb359454d1aaf41e57443 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@6043f3f0
+2025-01-13 21:17:51.300 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:17:52.314 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:19:11.778 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68551 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:19:11.779 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:19:12.457 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:19:12.464 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:19:12.465 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:19:12.466 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:19:12.499 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:19:12.500 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+2025-01-13 21:19:12.921 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:19:12.949 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:19:12.960 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:19:12.974 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.425 seconds (process running for 1.588)
+2025-01-13 21:19:18.565 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:19:18.565 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:19:18.566 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:19:18.628 [http-nio-8080-exec-2] 678535fee0868703fd3c1faf47803e2c INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:19:18.629 [http-nio-8080-exec-2] 678535fee0868703fd3c1faf47803e2c INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:19:18.662 [http-nio-8080-exec-2] 678535fee0868703fd3c1faf47803e2c INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:19:18.662 [http-nio-8080-exec-2] 678535fee0868703fd3c1faf47803e2c INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:19:18.692 [http-nio-8080-exec-2] 678535fee0868703fd3c1faf47803e2c INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@4e72a7c7
+2025-01-13 21:20:43.690 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:20:44.701 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:21:13.046 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68715 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:21:13.047 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:21:13.807 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:21:13.818 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:21:13.820 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:21:13.820 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:21:13.862 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:21:13.863 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 791 ms
+2025-01-13 21:21:14.549 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:21:14.578 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:21:14.593 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:21:14.603 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.842 seconds (process running for 2.131)
+2025-01-13 21:21:24.819 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:21:24.820 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:21:24.822 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-13 21:21:24.897 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.e.P.aspect.LogMethodParamAspect - JoinPoint details execution(ResponseEntity com.example.Project1.controller.Controller.processRequest(NameDate))
+2025-01-13 21:21:24.898 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:21:24.900 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.e.Project1.controller.Controller - Request receive for USER_FULL_NAMENameDate{name='John', surname='Doe'}
+2025-01-13 21:21:24.900 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.e.P.aspect.LogMethodParamAspect - JoinPoint details execution(UserFullNameResponse com.example.Project1.service.Processor.getUserCompleteName(NameDate))
+2025-01-13 21:21:24.900 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:21:24.903 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:21:24.933 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:21:24.933 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:21:24.971 [http-nio-8080-exec-2] 6785367c76a19721eb67661d39a321dd INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@79ec42f9
+2025-01-13 21:21:33.749 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:21:34.758 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:21:50.377 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68773 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:21:50.378 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:21:51.086 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:21:51.093 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:21:51.094 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:21:51.094 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:21:51.130 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:21:51.131 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 727 ms
+2025-01-13 21:21:51.779 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:21:51.807 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:21:51.826 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:21:51.835 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.721 seconds (process running for 1.894)
+2025-01-13 21:21:58.132 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:21:58.133 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:21:58.134 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:21:58.202 [http-nio-8080-exec-2] 6785369e9f9e2aed30b7b133679b5e97 INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:21:58.204 [http-nio-8080-exec-2] 6785369e9f9e2aed30b7b133679b5e97 INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:21:58.205 [http-nio-8080-exec-2] 6785369e9f9e2aed30b7b133679b5e97 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:21:58.244 [http-nio-8080-exec-2] 6785369e9f9e2aed30b7b133679b5e97 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:21:58.245 [http-nio-8080-exec-2] 6785369e9f9e2aed30b7b133679b5e97 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:21:58.289 [http-nio-8080-exec-2] 6785369e9f9e2aed30b7b133679b5e97 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@54e17da6
+2025-01-13 21:22:04.440 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:22:05.450 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:22:21.386 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 68816 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:22:21.387 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:22:22.071 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:22:22.077 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:22:22.078 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:22:22.078 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:22:22.110 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:22:22.111 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 701 ms
+2025-01-13 21:22:22.572 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:22:22.601 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:22:22.613 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:22:22.622 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.494 seconds (process running for 1.726)
+2025-01-13 21:22:25.282 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:22:25.294 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:28:29.282 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 69346 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:28:29.284 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:28:29.961 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:28:29.966 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:28:29.968 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:28:29.968 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:28:29.999 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:28:30.000 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 689 ms
+2025-01-13 21:28:30.474 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:28:30.501 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:28:30.511 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:28:30.520 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.517 seconds (process running for 1.686)
+2025-01-13 21:28:33.207 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:28:33.207 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:28:33.209 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-13 21:28:33.281 [http-nio-8080-exec-2] 678538291784bf0ff8f774b239ba8dbd INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:28:33.282 [http-nio-8080-exec-2] 678538291784bf0ff8f774b239ba8dbd INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:28:33.283 [http-nio-8080-exec-2] 678538291784bf0ff8f774b239ba8dbd INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:28:33.387 [http-nio-8080-exec-2] 678538291784bf0ff8f774b239ba8dbd INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:28:33.387 [http-nio-8080-exec-2] 678538291784bf0ff8f774b239ba8dbd INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:28:33.438 [http-nio-8080-exec-2] 678538291784bf0ff8f774b239ba8dbd INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@695f62f5
+2025-01-13 21:29:15.780 [http-nio-8080-exec-3] 678538531ef2ed361f67921a97c85e72 INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:29:15.782 [http-nio-8080-exec-3] 678538531ef2ed361f67921a97c85e72 INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:29:15.783 [http-nio-8080-exec-3] 678538531ef2ed361f67921a97c85e72 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:29:15.861 [http-nio-8080-exec-3] 678538531ef2ed361f67921a97c85e72 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= HELLO
+2025-01-13 21:29:15.861 [http-nio-8080-exec-3] 678538531ef2ed361f67921a97c85e72 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:29:15.893 [http-nio-8080-exec-3] 678538531ef2ed361f67921a97c85e72 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@1f0e9d2
+2025-01-13 21:31:41.399 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:31:42.411 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-13 21:33:45.507 [main]  INFO  c.e.Project1.Project1Application - Starting Project1Application using Java 17.0.13 with PID 69639 (/Users/rajatsingh/Downloads/Project1/build/classes/java/main started by rajatsingh in /Users/rajatsingh/Downloads/Project1)
+2025-01-13 21:33:45.508 [main]  INFO  c.e.Project1.Project1Application - No active profile set, falling back to 1 default profile: "default"
+2025-01-13 21:33:46.166 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-13 21:33:46.171 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:33:46.172 [main]  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 21:33:46.172 [main]  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13 21:33:46.205 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 21:33:46.205 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 675 ms
+2025-01-13 21:33:46.668 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13 21:33:46.690 [main]  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-13 21:33:46.699 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-13 21:33:46.708 [main]  INFO  c.e.Project1.Project1Application - Started Project1Application in 1.432 seconds (process running for 1.623)
+2025-01-13 21:33:50.757 [http-nio-8080-exec-2]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 21:33:50.757 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-13 21:33:50.758 [http-nio-8080-exec-2]  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-13 21:33:50.826 [http-nio-8080-exec-2] 67853966825606be392d538ff58d2ea1 INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:33:50.827 [http-nio-8080-exec-2] 67853966825606be392d538ff58d2ea1 INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:33:50.828 [http-nio-8080-exec-2] 67853966825606be392d538ff58d2ea1 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:33:50.844 [http-nio-8080-exec-2] 67853966825606be392d538ff58d2ea1 ERROR c.e.P.errorhandler.RestErrorHandler - Request processing failed 
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8089/hello": Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:683)
+	at com.example.Project1.service.Processor.getDataForUserFromService2(Processor.java:54)
+	at com.example.Project1.service.Processor.getUserCompleteName(Processor.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.example.Project1.service.Processor$$SpringCGLIB$$0.getUserCompleteName(<generated>)
+	at com.example.Project1.controller.Controller.processRequest(Controller.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.example.Project1.controller.Controller$$SpringCGLIB$$0.processRequest(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:533)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:638)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:281)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1324)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1072)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 85 common frames omitted
+2025-01-13 21:34:05.288 [http-nio-8080-exec-3] 67853975d0bd68df811db1e8b594ee7c INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:34:05.289 [http-nio-8080-exec-3] 67853975d0bd68df811db1e8b594ee7c INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:34:05.289 [http-nio-8080-exec-3] 67853975d0bd68df811db1e8b594ee7c INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:34:05.298 [http-nio-8080-exec-3] 67853975d0bd68df811db1e8b594ee7c ERROR c.e.P.errorhandler.RestErrorHandler - Request processing failed 
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8089/hello": Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:683)
+	at com.example.Project1.service.Processor.getDataForUserFromService2(Processor.java:54)
+	at com.example.Project1.service.Processor.getUserCompleteName(Processor.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.example.Project1.service.Processor$$SpringCGLIB$$0.getUserCompleteName(<generated>)
+	at com.example.Project1.controller.Controller.processRequest(Controller.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.example.Project1.controller.Controller$$SpringCGLIB$$0.processRequest(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:533)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:638)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:281)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1324)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1072)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 85 common frames omitted
+2025-01-13 21:34:11.076 [http-nio-8080-exec-6] 6785397b66fd917063677e17c4449eb1 INFO  c.e.P.aspect.LogMethodParamAspect - Controller.processRequest() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:34:11.077 [http-nio-8080-exec-6] 6785397b66fd917063677e17c4449eb1 INFO  c.e.P.aspect.LogMethodParamAspect - Processor.getUserCompleteName() - Arguments: [NameDate{name='John', surname='Doe'}]
+2025-01-13 21:34:11.077 [http-nio-8080-exec-6] 6785397b66fd917063677e17c4449eb1 INFO  c.example.Project1.service.Processor - service2 calling url= http://localhost:8089/hello
+2025-01-13 21:34:11.171 [http-nio-8080-exec-6] 6785397b66fd917063677e17c4449eb1 INFO  c.example.Project1.service.Processor - Response receive from service2 Response= <200 OK OK,HELLO,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5", Date:"Mon, 13 Jan 2025 16:04:11 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2025-01-13 21:34:11.171 [http-nio-8080-exec-6] 6785397b66fd917063677e17c4449eb1 INFO  c.example.Project1.service.Processor - service3 calling url= http://localhost:8090/simplified/name
+2025-01-13 21:34:11.208 [http-nio-8080-exec-6] 6785397b66fd917063677e17c4449eb1 INFO  c.example.Project1.service.Processor - Response receive from service3 Response= com.example.Project1.model.ConcatinatedResponse@1bf91db1
+2025-01-13 21:34:30.293 [SpringApplicationShutdownHook]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13 21:34:32.309 [tomcat-shutdown]  INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
